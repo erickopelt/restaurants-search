@@ -108,8 +108,10 @@ for example, the file readers.
 There are a number of environment variable to customize the application
 
 *RESTAURANTS_SEARCH_LIMIT*: How many records the API should return;
+
 *RESTAURANTS_FILE*: The path to the restaurant .csv file. It follows the spring boot resources [convention](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch05s04.html),
 so for example to load a file from the classpath you need to pass the path with the prefix "classpath",
 example, "classpath:restaurants.csv", for a file on the filesystem, "file:/restaurants.csv", and for an
 online resource, "http:http://server.com/restaurants.csv"
+
 *CUISINES_FILE*: The path to the cuisines .csv file. Same as the restaurants file variable.
