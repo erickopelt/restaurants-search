@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "5bc309ba-f2c0-4ef8-a31f-f04d0ac46f1f",
+		"name": "Restaurant search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/restaurants?price=10&distance=2&name=Deli&cuisine=Spanish&rating=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "10"
+						},
+						{
+							"key": "distance",
+							"value": "2"
+						},
+						{
+							"key": "name",
+							"value": "Deli"
+						},
+						{
+							"key": "cuisine",
+							"value": "Spanish"
+						},
+						{
+							"key": "rating",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
